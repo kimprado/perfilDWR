@@ -1,0 +1,579 @@
+INFO  04/10/2012 04:59:05 [http-8080-Processor25] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions (linha 199) - Loading XML bean definitions from file [C:\bin\apache-tomcat-5.5.27\bin\test\applicationContextDesenv.xml]
+INFO  04/10/2012 04:59:05 [http-8080-Processor25] - org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory (linha 92) - Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext;hashCode=420513575]: org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [dataSourceLSF]; root of BeanFactory hierarchy
+INFO  04/10/2012 04:59:05 [http-8080-Processor23] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions (linha 199) - Loading XML bean definitions from file [C:\bin\apache-tomcat-5.5.27\bin\test\applicationContextDesenv.xml]
+INFO  04/10/2012 04:59:05 [http-8080-Processor23] - org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory (linha 92) - Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext;hashCode=1785326922]: org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [dataSourceLSF]; root of BeanFactory hierarchy
+INFO  04/10/2012 04:59:06 [http-8080-Processor23] - org.springframework.context.support.AbstractApplicationContext.refresh (linha 307) - 1 beans defined in application context [org.springframework.context.support.FileSystemXmlApplicationContext;hashCode=1785326922]
+INFO  04/10/2012 04:59:05 [http-8080-Processor25] - org.springframework.context.support.AbstractApplicationContext.refresh (linha 307) - 1 beans defined in application context [org.springframework.context.support.FileSystemXmlApplicationContext;hashCode=420513575]
+INFO  04/10/2012 04:59:06 [http-8080-Processor23] - org.springframework.core.CollectionFactory.<clinit> (linha 66) - JDK 1.4+ collections available
+INFO  04/10/2012 04:59:06 [http-8080-Processor25] - org.springframework.context.support.AbstractApplicationContext.initMessageSource (linha 459) - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@58651e95]
+INFO  04/10/2012 04:59:06 [http-8080-Processor23] - org.springframework.context.support.AbstractApplicationContext.initMessageSource (linha 459) - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@56baf589]
+INFO  04/10/2012 04:59:06 [http-8080-Processor25] - org.springframework.context.support.AbstractApplicationContext.initApplicationEventMulticaster (linha 481) - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@67b2b131]
+INFO  04/10/2012 04:59:06 [http-8080-Processor23] - org.springframework.context.support.AbstractApplicationContext.initApplicationEventMulticaster (linha 481) - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@475a07bf]
+INFO  04/10/2012 04:59:06 [http-8080-Processor22] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions (linha 199) - Loading XML bean definitions from file [C:\bin\apache-tomcat-5.5.27\bin\test\applicationContextDesenv.xml]
+INFO  04/10/2012 04:59:06 [http-8080-Processor25] - org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons (linha 239) - Pre-instantiating singletons in factory [org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [dataSourceLSF]; root of BeanFactory hierarchy]
+INFO  04/10/2012 04:59:06 [http-8080-Processor22] - org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory (linha 92) - Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext;hashCode=1475857863]: org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [dataSourceLSF]; root of BeanFactory hierarchy
+INFO  04/10/2012 04:59:06 [http-8080-Processor22] - org.springframework.context.support.AbstractApplicationContext.refresh (linha 307) - 1 beans defined in application context [org.springframework.context.support.FileSystemXmlApplicationContext;hashCode=1475857863]
+INFO  04/10/2012 04:59:06 [http-8080-Processor22] - org.springframework.context.support.AbstractApplicationContext.initMessageSource (linha 459) - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@59db9f45]
+INFO  04/10/2012 04:59:06 [http-8080-Processor22] - org.springframework.context.support.AbstractApplicationContext.initApplicationEventMulticaster (linha 481) - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@61b59919]
+INFO  04/10/2012 04:59:06 [http-8080-Processor22] - org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons (linha 239) - Pre-instantiating singletons in factory [org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [dataSourceLSF]; root of BeanFactory hierarchy]
+INFO  04/10/2012 04:59:06 [http-8080-Processor23] - org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons (linha 239) - Pre-instantiating singletons in factory [org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [dataSourceLSF]; root of BeanFactory hierarchy]
+INFO  04/10/2012 04:59:06 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@2e6f947b
+INFO  04/10/2012 04:59:06 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@1f7d2f0e
+INFO  04/10/2012 04:59:06 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:11 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:16 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:21 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:26 [http-8080-Processor19] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:30 [http-8080-Processor18] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:35 [http-8080-Processor17] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:35 [http-8080-Processor16] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:38 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:42 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:46 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:47 [http-8080-Processor15] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:48 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:52 [http-8080-Processor14] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:54 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:55 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:56 [http-8080-Processor19] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 04:59:56 [http-8080-Processor18] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:00 [http-8080-Processor17] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:01 [http-8080-Processor16] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:06 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:10 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:12 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:14 [http-8080-Processor15] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:16 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:21 [http-8080-Processor14] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:25 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:27 [http-8080-Processor11] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:28 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:29 [http-8080-Processor19] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:32 [http-8080-Processor13] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:37 [http-8080-Processor10] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:37 [http-8080-Processor18] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:39 [http-8080-Processor17] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:42 [http-8080-Processor16] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:44 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:47 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:52 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:52 [http-8080-Processor15] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:55 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:00:56 [http-8080-Processor12] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:01 [http-8080-Processor9] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:04 [http-8080-Processor8] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:06 [http-8080-Processor7] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:09 [http-8080-Processor14] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:11 [http-8080-Processor6] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:12 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:14 [http-8080-Processor5] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:15 [http-8080-Processor4] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:19 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:24 [http-8080-Processor19] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:27 [http-8080-Processor18] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:31 [http-8080-Processor17] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:35 [http-8080-Processor16] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:37 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:39 [http-8080-Processor11] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:42 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:45 [http-8080-Processor10] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:49 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:53 [http-8080-Processor13] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+ERROR 04/10/2012 05:01:54 [http-8080-Processor3] - br.perfil.dwr.infra.DAO.conectarLocal (linha 123) - ##### DAO.conectarLocal: Erro no DAO.conectarLocal() #####
+ERROR 04/10/2012 05:01:54 [http-8080-Processor3] - br.perfil.dwr.infra.DAO.conectarLocal (linha 124) - Cannot get a connection, pool exhausted
+org.apache.commons.dbcp.SQLNestedException: Cannot get a connection, pool exhausted
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:103)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at br.perfil.dwr.infra.DAO.conectarLocal(DAO.java:117)
+	at br.perfil.dwr.infra.DAO.conectar(DAO.java:96)
+	at br.perfil.dwr.infra.DAO.<init>(DAO.java:39)
+	at br.perfil.dwr.dao.AlunoDAO.<init>(AlunoDAO.java:20)
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:67)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:659)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:592)
+	at org.directwebremoting.dwrp.BaseCallHandler.handle(BaseCallHandler.java:91)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:120)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:141)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:875)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.util.NoSuchElementException: Timeout waiting for idle object
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1134)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:74)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:95)
+	... 32 more
+INFO  04/10/2012 05:01:54 [http-8080-Processor3] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: null
+INFO  04/10/2012 05:01:55 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:57 [http-8080-Processor2] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:01:58 [http-8080-Processor8] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:02 [http-8080-Processor9] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:05 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:09 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:11 [http-8080-Processor4] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:12 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:14 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:16 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:16 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:18 [http-8080-Processor5] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:22 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:26 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:29 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:30 [http-8080-Processor8] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:33 [http-8080-Processor5] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:35 [http-8080-Processor3] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:39 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:43 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:48 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:49 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:50 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:51 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:02:55 [http-8080-Processor5] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:00 [http-8080-Processor4] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:04 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:05 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:08 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:13 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:14 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:19 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:24 [http-8080-Processor8] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:26 [http-8080-Processor3] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:27 [http-8080-Processor9] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:28 [http-8080-Processor2] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:30 [http-8080-Processor16] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:32 [http-8080-Processor17] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:35 [http-8080-Processor8] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:39 [http-8080-Processor3] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:44 [http-8080-Processor9] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:48 [http-8080-Processor2] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:48 [http-8080-Processor16] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:52 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:53 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:55 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:56 [http-8080-Processor17] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:03:58 [http-8080-Processor13] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:03 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:08 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:13 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:16 [http-8080-Processor4] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:17 [http-8080-Processor8] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:20 [http-8080-Processor5] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:24 [http-8080-Processor18] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:27 [http-8080-Processor10] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:28 [http-8080-Processor19] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:28 [http-8080-Processor3] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:31 [http-8080-Processor9] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:35 [http-8080-Processor2] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:39 [http-8080-Processor11] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:41 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:42 [http-8080-Processor15] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:43 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:46 [http-8080-Processor7] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:47 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:48 [http-8080-Processor14] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:52 [http-8080-Processor6] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:56 [http-8080-Processor13] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:57 [http-8080-Processor17] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:04:59 [http-8080-Processor16] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:00 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:04 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:07 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:11 [http-8080-Processor4] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:11 [http-8080-Processor8] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:14 [http-8080-Processor12] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:18 [http-8080-Processor1] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:20 [http-8080-Processor5] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:25 [http-8080-Processor50] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:27 [http-8080-Processor18] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:28 [http-8080-Processor49] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+ERROR 04/10/2012 05:05:28 [http-8080-Processor10] - br.perfil.dwr.infra.DAO.conectarLocal (linha 123) - ##### DAO.conectarLocal: Erro no DAO.conectarLocal() #####
+ERROR 04/10/2012 05:05:28 [http-8080-Processor10] - br.perfil.dwr.infra.DAO.conectarLocal (linha 124) - Cannot get a connection, pool exhausted
+org.apache.commons.dbcp.SQLNestedException: Cannot get a connection, pool exhausted
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:103)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at br.perfil.dwr.infra.DAO.conectarLocal(DAO.java:117)
+	at br.perfil.dwr.infra.DAO.conectar(DAO.java:96)
+	at br.perfil.dwr.infra.DAO.<init>(DAO.java:39)
+	at br.perfil.dwr.dao.AlunoDAO.<init>(AlunoDAO.java:20)
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:67)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:659)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:592)
+	at org.directwebremoting.dwrp.BaseCallHandler.handle(BaseCallHandler.java:91)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:120)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:141)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:875)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.util.NoSuchElementException: Timeout waiting for idle object
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1134)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:74)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:95)
+	... 32 more
+INFO  04/10/2012 05:05:28 [http-8080-Processor10] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: null
+ERROR 04/10/2012 05:05:28 [http-8080-Processor19] - br.perfil.dwr.infra.DAO.conectarLocal (linha 123) - ##### DAO.conectarLocal: Erro no DAO.conectarLocal() #####
+ERROR 04/10/2012 05:05:28 [http-8080-Processor19] - br.perfil.dwr.infra.DAO.conectarLocal (linha 124) - Cannot get a connection, pool exhausted
+org.apache.commons.dbcp.SQLNestedException: Cannot get a connection, pool exhausted
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:103)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at br.perfil.dwr.infra.DAO.conectarLocal(DAO.java:117)
+	at br.perfil.dwr.infra.DAO.conectar(DAO.java:96)
+	at br.perfil.dwr.infra.DAO.<init>(DAO.java:39)
+	at br.perfil.dwr.dao.AlunoDAO.<init>(AlunoDAO.java:20)
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:67)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:659)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:592)
+	at org.directwebremoting.dwrp.BaseCallHandler.handle(BaseCallHandler.java:91)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:120)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:141)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:875)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.util.NoSuchElementException: Timeout waiting for idle object
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1134)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:74)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:95)
+	... 32 more
+INFO  04/10/2012 05:05:28 [http-8080-Processor19] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: null
+ERROR 04/10/2012 05:05:29 [http-8080-Processor48] - br.perfil.dwr.infra.DAO.conectarLocal (linha 123) - ##### DAO.conectarLocal: Erro no DAO.conectarLocal() #####
+ERROR 04/10/2012 05:05:29 [http-8080-Processor48] - br.perfil.dwr.infra.DAO.conectarLocal (linha 124) - Cannot get a connection, pool exhausted
+org.apache.commons.dbcp.SQLNestedException: Cannot get a connection, pool exhausted
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:103)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at br.perfil.dwr.infra.DAO.conectarLocal(DAO.java:117)
+	at br.perfil.dwr.infra.DAO.conectar(DAO.java:96)
+	at br.perfil.dwr.infra.DAO.<init>(DAO.java:39)
+	at br.perfil.dwr.dao.AlunoDAO.<init>(AlunoDAO.java:20)
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:67)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:659)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:592)
+	at org.directwebremoting.dwrp.BaseCallHandler.handle(BaseCallHandler.java:91)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:120)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:141)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:875)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.util.NoSuchElementException: Timeout waiting for idle object
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1134)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:74)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:95)
+	... 32 more
+INFO  04/10/2012 05:05:29 [http-8080-Processor48] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: null
+INFO  04/10/2012 05:05:30 [http-8080-Processor3] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:31 [http-8080-Processor9] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:33 [http-8080-Processor2] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:36 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:41 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:42 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:43 [http-8080-Processor47] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:47 [http-8080-Processor7] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:51 [http-8080-Processor15] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:05:55 [http-8080-Processor13] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+ERROR 04/10/2012 05:05:59 [http-8080-Processor17] - br.perfil.dwr.infra.DAO.conectarLocal (linha 123) - ##### DAO.conectarLocal: Erro no DAO.conectarLocal() #####
+ERROR 04/10/2012 05:05:59 [http-8080-Processor17] - br.perfil.dwr.infra.DAO.conectarLocal (linha 124) - Cannot get a connection, pool exhausted
+org.apache.commons.dbcp.SQLNestedException: Cannot get a connection, pool exhausted
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:103)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at br.perfil.dwr.infra.DAO.conectarLocal(DAO.java:117)
+	at br.perfil.dwr.infra.DAO.conectar(DAO.java:96)
+	at br.perfil.dwr.infra.DAO.<init>(DAO.java:39)
+	at br.perfil.dwr.dao.AlunoDAO.<init>(AlunoDAO.java:20)
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:67)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:659)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:592)
+	at org.directwebremoting.dwrp.BaseCallHandler.handle(BaseCallHandler.java:91)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:120)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:141)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:875)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.util.NoSuchElementException: Timeout waiting for idle object
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1134)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:74)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:95)
+	... 32 more
+INFO  04/10/2012 05:05:59 [http-8080-Processor17] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: null
+INFO  04/10/2012 05:05:59 [http-8080-Processor16] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+ERROR 04/10/2012 05:06:01 [http-8080-Processor14] - br.perfil.dwr.infra.DAO.conectarLocal (linha 123) - ##### DAO.conectarLocal: Erro no DAO.conectarLocal() #####
+ERROR 04/10/2012 05:06:01 [http-8080-Processor14] - br.perfil.dwr.infra.DAO.conectarLocal (linha 124) - Cannot get a connection, pool exhausted
+org.apache.commons.dbcp.SQLNestedException: Cannot get a connection, pool exhausted
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:103)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at br.perfil.dwr.infra.DAO.conectarLocal(DAO.java:117)
+	at br.perfil.dwr.infra.DAO.conectar(DAO.java:96)
+	at br.perfil.dwr.infra.DAO.<init>(DAO.java:39)
+	at br.perfil.dwr.dao.AlunoDAO.<init>(AlunoDAO.java:20)
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:67)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:659)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:592)
+	at org.directwebremoting.dwrp.BaseCallHandler.handle(BaseCallHandler.java:91)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:120)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:141)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:875)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.util.NoSuchElementException: Timeout waiting for idle object
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1134)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:74)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:95)
+	... 32 more
+INFO  04/10/2012 05:06:01 [http-8080-Processor14] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: null
+INFO  04/10/2012 05:06:02 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+ERROR 04/10/2012 05:06:05 [http-8080-Processor6] - br.perfil.dwr.infra.DAO.conectarLocal (linha 123) - ##### DAO.conectarLocal: Erro no DAO.conectarLocal() #####
+ERROR 04/10/2012 05:06:05 [http-8080-Processor6] - br.perfil.dwr.infra.DAO.conectarLocal (linha 124) - Cannot get a connection, pool exhausted
+org.apache.commons.dbcp.SQLNestedException: Cannot get a connection, pool exhausted
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:103)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at br.perfil.dwr.infra.DAO.conectarLocal(DAO.java:117)
+	at br.perfil.dwr.infra.DAO.conectar(DAO.java:96)
+	at br.perfil.dwr.infra.DAO.<init>(DAO.java:39)
+	at br.perfil.dwr.dao.AlunoDAO.<init>(AlunoDAO.java:20)
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:67)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:659)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:592)
+	at org.directwebremoting.dwrp.BaseCallHandler.handle(BaseCallHandler.java:91)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:120)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:141)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:875)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.util.NoSuchElementException: Timeout waiting for idle object
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1134)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:74)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:95)
+	... 32 more
+INFO  04/10/2012 05:06:05 [http-8080-Processor6] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: null
+INFO  04/10/2012 05:06:05 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:09 [http-8080-Processor25] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:12 [http-8080-Processor8] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:16 [http-8080-Processor11] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:19 [http-8080-Processor12] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:23 [http-8080-Processor1] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:26 [http-8080-Processor3] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:26 [http-8080-Processor46] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:31 [http-8080-Processor9] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+ERROR 04/10/2012 05:06:35 [http-8080-Processor49] - br.perfil.dwr.infra.DAO.conectarLocal (linha 123) - ##### DAO.conectarLocal: Erro no DAO.conectarLocal() #####
+ERROR 04/10/2012 05:06:35 [http-8080-Processor49] - br.perfil.dwr.infra.DAO.conectarLocal (linha 124) - Cannot get a connection, pool exhausted
+org.apache.commons.dbcp.SQLNestedException: Cannot get a connection, pool exhausted
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:103)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at br.perfil.dwr.infra.DAO.conectarLocal(DAO.java:117)
+	at br.perfil.dwr.infra.DAO.conectar(DAO.java:96)
+	at br.perfil.dwr.infra.DAO.<init>(DAO.java:39)
+	at br.perfil.dwr.dao.AlunoDAO.<init>(AlunoDAO.java:20)
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:67)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:659)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:592)
+	at org.directwebremoting.dwrp.BaseCallHandler.handle(BaseCallHandler.java:91)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:120)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:141)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:875)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.util.NoSuchElementException: Timeout waiting for idle object
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1134)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:74)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:95)
+	... 32 more
+INFO  04/10/2012 05:06:35 [http-8080-Processor49] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: null
+INFO  04/10/2012 05:06:35 [http-8080-Processor2] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:39 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+ERROR 04/10/2012 05:06:42 [http-8080-Processor20] - br.perfil.dwr.infra.DAO.conectarLocal (linha 123) - ##### DAO.conectarLocal: Erro no DAO.conectarLocal() #####
+ERROR 04/10/2012 05:06:42 [http-8080-Processor20] - br.perfil.dwr.infra.DAO.conectarLocal (linha 124) - Cannot get a connection, pool exhausted
+org.apache.commons.dbcp.SQLNestedException: Cannot get a connection, pool exhausted
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:103)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at br.perfil.dwr.infra.DAO.conectarLocal(DAO.java:117)
+	at br.perfil.dwr.infra.DAO.conectar(DAO.java:96)
+	at br.perfil.dwr.infra.DAO.<init>(DAO.java:39)
+	at br.perfil.dwr.dao.AlunoDAO.<init>(AlunoDAO.java:20)
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:67)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:659)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:592)
+	at org.directwebremoting.dwrp.BaseCallHandler.handle(BaseCallHandler.java:91)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:120)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:141)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:875)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.util.NoSuchElementException: Timeout waiting for idle object
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1134)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:74)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:95)
+	... 32 more
+INFO  04/10/2012 05:06:42 [http-8080-Processor20] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: null
+INFO  04/10/2012 05:06:42 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:43 [http-8080-Processor13] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:45 [http-8080-Processor16] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:47 [http-8080-Processor22] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:50 [http-8080-Processor23] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:54 [http-8080-Processor8] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:55 [http-8080-Processor3] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:06:57 [http-8080-Processor9] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:07:00 [http-8080-Processor2] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:07:05 [http-8080-Processor24] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:07:06 [http-8080-Processor21] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:07:06 [http-8080-Processor16] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:07:07 [http-8080-Processor17] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:07:10 [http-8080-Processor8] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
+INFO  04/10/2012 05:07:12 [http-8080-Processor3] - br.perfil.dwr.dao.AlunoDAO.<init> (linha 23) - Construtor: org.apache.commons.dbcp.PoolableConnection@39edd9b3
