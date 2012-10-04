@@ -23,7 +23,7 @@ public class AlunoDAO extends DAO {
         super(con);
     }
     
-    public Aluno find(Long id) throws Exception {
+    public Aluno find(String id) throws Exception {
         Aluno aluno = null;
         try {
             conectar();

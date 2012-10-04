@@ -43,7 +43,7 @@ public class AlunoDAOTest {
     @Test
     public void testFind() throws Exception {
         System.out.println("find");
-        Long id = 1L;
+        String id = "1";
         AlunoDAO instance = new AlunoDAO();
         Aluno aluno = instance.find(id);
         assertNotNull("Não pode ser nula", aluno);
@@ -55,7 +55,7 @@ public class AlunoDAOTest {
     @Test
     public void testFindMultiplasChamadas() throws Exception {
         System.out.println("find");
-        Long id = 1L;
+        String id = "1";
         for (int i=0; i < 30; i++) {
             AlunoDAO instance = new AlunoDAO();
             Aluno aluno = instance.find(id);
