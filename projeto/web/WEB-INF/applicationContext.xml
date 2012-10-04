@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+  <bean id="beanRetriever" class="lsf.util.bd.BeanRetriever"/>
+  <bean id="propertyConfigurer"
+        class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    <property name="locations">
+      <list>
+        <value>WEB-INF/jdbc.properties</value>
+      </list>
+    </property>
+  </bean>
+  <!-- Local DataSource that works in any environment -->
+  <bean id="dataSourceLSF" class="org.apache.commons.dbcp.BasicDataSource"
+        destroy-method="close">
+    <property name="driverClassName">
+      <value>${jdbc.driverClassName}</value>
+    </property>
+    <property name="url">
+      <value>${jdbc.url}</value>
+    </property>
+    <property name="username">
+      <value>${jdbc.username}</value>
+    </property>
+    <property name="password">
+      <value>${jdbc.password}</value>
+    </property>
+    <property name="initialSize">
+        <value>0</value>
+    </property>
+    <property name="maxActive">
+        <value>-1</value>
+    </property>
+    <property name="maxWait">
+        <value>60000</value>
+    </property>
+    <property name="removeAbandoned">
+        <value>true</value>
+    </property>
+    <property name="logAbandoned">
+        <value>true</value>
+    </property>
+    <property name="removeAbandonedTimeout">
+        <value>120</value>
+    </property>
+  </bean>
+</beans>
+

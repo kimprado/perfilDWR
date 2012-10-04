@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <description>Alterado em 17/07/2008 - Armenio e Rogerio</description>
+        <servlet-name>dwr-invoker</servlet-name>
+      <!--<servlet-class>uk.ltd.getahead.dwr.DWRServlet</servlet-class> Saluti30092009 servlet do dwr mudou na vers�o 2.0.5-->
+        <servlet-class>org.directwebremoting.servlet.DwrServlet</servlet-class>
+        <init-param>
+            <param-name>debug</param-name>
+            <param-value>false</param-value>
+        </init-param>
+        <init-param>
+            <param-name>crossDomainSessionSecurity</param-name>
+            <param-value>false</param-value>
+        </init-param>
+        <init-param>
+            <param-name>allowScriptTagRemoting</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <init-param>
+            <param-name>
+                allowGetForSafariButMakeForgeryEasier
+            </param-name>
+            <param-value>true</param-value>
+        </init-param>
+
+      <!--
+      <init-param>
+         <param-name>logLevel</param-name>
+         <param-value>WARN</param-value>
+      </init-param>
+      -->
+      <!-- configura��es RAjax -->
+      <!-- comentar todas as linhas para ativar o modo passivo(piggyback)
+           remover tamb�m o javascript de configura��o dwr.engine.setActiveReverseAjax(true)-->
+      <!--
+      habilita o AjaxReverso
+      -->
+      <!--<init-param>
+         <param-name>activeReverseAjaxEnabled</param-name>
+         <param-value>true</param-value>
+      </init-param>
+      -->
+      <!--
+       apos ativar o ajax reverso, o par�metro abaixo habilita o modo ativo(comet).
+       que mantem um request aberto por tempo indefinido.
+      <init-param>
+         <param-name>maxWaitAfterWrite</param-name>
+         <param-value>-1</param-value>
+      </init-param>
+      -->
+
+      <!-- apos ativar o ajax reverso, o par�metro abaixo ativa o modo polling,
+      que realiza requests periodicos-->
+      <!--<init-param>
+         <param-name>org.directwebremoting.extend.ServerLoadMonitor</param-name>
+         <param-value>org.directwebremoting.impl.PollingServerLoadMonitor</param-value>
+      </init-param>
+      -->
+      <!-- o par�metro abaixo configura o intervalo entra as chamadas do polling.
+      -->
+      <!--
+      <init-param>
+         <param-name>disconnectedTime</param-name>
+         <param-value>10000</param-value>
+      </init-param>
+      instru��o deprecated, utilizar disconnectedTime
+      <init-param>
+         <param-name>timeToNextPoll</param-name>
+         <param-value>10000</param-value>
+      </init-param>
+      -->
+        <init-param>
+            <param-name>scriptSessionTimeout</param-name>
+            <param-value>1800000</param-value><!--30 minutos -->
+        </init-param>
+
+      <!-- fim configura��es RAjax -->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>ConfiguraRAjax</servlet-name>
+        <servlet-class>br.perfil.dwr.view.ConfiguraRAjax</servlet-class>
+        <load-on-startup>2</load-on-startup>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>dwr-invoker</servlet-name>
+        <url-pattern>/dwr/*</url-pattern>
+    </servlet-mapping>
+</web-app>

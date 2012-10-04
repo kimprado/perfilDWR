@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration PUBLIC "-//LOGGER" "http://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+	
+	<appender name="Console" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-5p [%d{HH:mm:ss}] - [%c{2}.%M:%L] - %m%n"/>
+		</layout>
+	</appender>
+
+	<appender name="File" 
+		class="org.apache.log4j.DailyRollingFileAppender">
+<!-- Desenvolvimento -->
+		<param name="file" value="${user.home}/Desktop/tmp/agenda.log" />
+
+
+<!-- Homologação
+		<param name="file" value="/var/tomcat/logs/log4j/agenda.log" />
+ -->
+
+<!-- Produção 
+		<param name="file" value="/var/tomcat/logs/log4j/agenda.log" />
+-->
+
+		<param name="MaxFileSize" value="100MB" />
+		<param name="MaxBackupIndex" value="5" />
+		<param name="Append" value="true" />
+                <param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-5p %d{dd/MM/yyyy HH:mm:ss} [%t] - %C.%M (linha %L) - %m%n" />
+		</layout>
+	</appender>
+        
+<!-- Desenvolvimento -->
+	<category name="lsf">
+		<priority value="debug" />
+	</category>
+
+	<root>
+		<priority value ="info" />
+		<appender-ref ref="Console" />
+		<appender-ref ref="File" />
+	</root>
+
+<!-- Homologação -->
+<!--	<category name="lsf">
+		<priority value="info" />
+	</category>
+
+	<root>
+		<priority value ="info" />
+		<appender-ref ref="File" />
+	</root>-->
+
+
+<!-- Produção -->
+<!--	<category name="lsf">
+		<priority value="info" />
+	</category>
+
+	<root>
+		<priority value ="info" />
+		<appender-ref ref="File" />
+	</root>-->
+
+</log4j:configuration>

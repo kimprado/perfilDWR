@@ -1,0 +1,60 @@
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN" "http://getahead.org/dwr//dwr30.dtd">
+
+<dwr>
+<!--    <init>
+        
+        Declarando o converter customizado que retira todos os
+        atributos nulos da resposta do servlet dwr. Saluti 17032011
+        
+        <converter class="br.perfil.dwr.view.LsfBeanConverter" id="lsfBean" />
+    </init>-->
+    <allow>
+        <!--
+       ****************************************************
+       Creates
+       ****************************************************
+       -->
+
+
+        <create creator="new" javascript="alunoDAO">
+            <param name="class" value="br.perfil.dwr.dao.AlunoDAO"/>
+        </create>
+
+        <!--
+       ****************************************************
+       Converts
+       ****************************************************
+       -->
+
+        <convert converter="bean" match="br.perfil.dwr.modelo.Aluno"/>
+
+    </allow>
+<!--    <signatures>
+        <![CDATA[
+        import java.util.*;
+
+        import lsf.negocio.cadastro.Paciente;
+        import lsf.negocio.cadastro.PacienteTelefoneFax;
+	import lsf.negocio.cadastro.CrmGrp;
+
+        Paciente.setFaxes(ArrayList<String> faxes)
+        CrmGrp.setFaxes(ArrayList<String> faxes)
+        PacienteTelefoneFax.setFaxes(ArrayList<String> faxes)
+
+      ]]>
+
+      <![CDATA[
+        import java.util.*;
+
+        import lsf.negocio.cadastro.Paciente;
+        import lsf.negocio.cadastro.PacienteTelefoneFax;
+	import lsf.negocio.cadastro.CrmGrp;
+
+        Paciente.setTelefones(ArrayList<String> telefones)
+        CrmGrp.setTelefones(ArrayList<String> telefones)
+        PacienteTelefoneFax.setTelefones(ArrayList<String> telefones)
+
+      ]]>
+    </signatures>-->
+</dwr>
+
