@@ -3,6 +3,8 @@ package br.perfil.dwr.dao;
 import br.perfil.dwr.infra.DAO;
 import br.perfil.dwr.modelo.Aluno;
 import java.sql.Connection;
+import java.util.Random;
+import java.util.logging.Level;
 import org.apache.log4j.Logger;
 
 /**
@@ -12,11 +14,17 @@ import org.apache.log4j.Logger;
 public class AlunoDAO extends DAO {
     
     private static final Logger LOG = Logger.getLogger(AlunoDAO.class);
+    private static final Random generator = new Random();
     
     public AlunoDAO() {
         super();
-        //LOG.info("Construtor padrão AlunoDAO. Conection: " + con);
-        LOG.info("Construtor: " + con);
+        try {
+            //LOG.info("Construtor padrão AlunoDAO. Conection: " + con);
+            //LOG.info("Construtor: " + con);
+//            int segundos = generator.nextInt(1000);
+//            Thread.sleep(segundos);
+        } catch (Exception ex) {
+        }
     }
 
     public AlunoDAO(Connection con) {
