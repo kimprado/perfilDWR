@@ -27,13 +27,19 @@
       <value>${jdbc.password}</value>
     </property>
     <property name="initialSize">
-        <value>0</value>
+        <value>30</value>
     </property>
     <property name="maxActive">
-        <value>-1</value>
+        <value>100</value>
+    </property>
+    <property name="maxIdle">
+        <value>60</value>
+    </property>
+    <property name="minIdle">
+        <value>30</value>
     </property>
     <property name="maxWait">
-        <value>60000</value>
+        <value>30000</value>
     </property>
     <property name="removeAbandoned">
         <value>true</value>
