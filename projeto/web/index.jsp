@@ -44,7 +44,7 @@
     <body >
         <h3>teste DWR</h3>
         <input type="button" value="Pesquisar" onclick="pesquisar();" />&nbsp;
-        <input type="button" value="Pesquisar" onclick="limpar();" />
+        <input type="button" value="Limpar" onclick="limpar();" />
         
         <br><br>
         <div id="divIdAluno">
