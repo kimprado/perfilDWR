@@ -27,16 +27,16 @@
       <value>perfil</value>
     </property>
     <property name="initialSize">
-        <value>0</value>
-    </property>
-    <property name="maxActive">
         <value>30</value>
     </property>
+    <property name="maxActive">
+        <value>-1</value>
+    </property>
     <property name="maxIdle">
-        <value>23</value>
+        <value>60</value>
     </property>
     <property name="minIdle">
-        <value>10</value>
+        <value>30</value>
     </property>
     <property name="maxWait">
         <value>30000</value>
