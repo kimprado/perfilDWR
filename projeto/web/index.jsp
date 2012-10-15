@@ -1,3 +1,5 @@
+<%@page import="java.util.Date"%>
+<%@page import="java.text.SimpleDateFormat"%>
 <%@page import="br.perfil.dwr.dao.AlunoDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
@@ -5,9 +7,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <%!
     public static int contador = 0;
+    private static final SimpleDateFormat fmDataHora = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+    
     public void exibeResultado() {
-        System.out.println("contador: " + (++contador));
-        
+        ++contador;
+        String dataHora = fmDataHora.format(new Date());
+        System.out.println("contador: " + dataHora + " - " + contador);
     }
 %>
 <html>
