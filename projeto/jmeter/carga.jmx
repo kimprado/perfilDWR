@@ -21,12 +21,12 @@
           </elementProp>
           <elementProp name="nb.interleave" elementType="Argument">
             <stringProp name="Argument.metadata">=</stringProp>
-            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.value">500</stringProp>
             <stringProp name="Argument.name">nb.interleave</stringProp>
           </elementProp>
           <elementProp name="nb.users" elementType="Argument">
             <stringProp name="Argument.metadata">=</stringProp>
-            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.value">1000</stringProp>
             <stringProp name="Argument.name">nb.users</stringProp>
           </elementProp>
           <elementProp name="nb.rampup" elementType="Argument">
@@ -75,10 +75,6 @@
           <intProp name="LoopController.loops">-1</intProp>
         </LoopController>
         <hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">${nb.interleave}</stringProp>
-          </ConstantTimer>
-          <hashTree/>
           <HTTPSampler guiclass="HttpTestSampleGui" testclass="HTTPSampler" testname="HTTP Request" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -98,6 +94,11 @@
             <boolProp name="HTTPSampler.monitor">false</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSampler>
+          <hashTree/>
+          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Temporizador Aleatório Gaussiano" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">9000</stringProp>
+          </GaussianRandomTimer>
           <hashTree/>
         </hashTree>
       </hashTree>
