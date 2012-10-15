@@ -20,6 +20,9 @@
                 </library>
                 <library dirs="200">
                     <file>${file.reference.commons-dbcp.jar}</file>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.commons-dbcp-1.4.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">

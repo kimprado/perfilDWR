@@ -31,7 +31,7 @@ public class DataSourceFactory {
             indexOf(aux.getPath())) + "test" +
             File.separator + "applicationContextDesenv.xml";
 
-    public static DataSource getDataSource() {
+    public static synchronized DataSource getDataSource() {
         if (null == dataSource) {
             String dsName = "dataSourceLSF";
             if (null == BeanRetriever.getBean(dsName)) {

@@ -32,7 +32,7 @@
 	</appender>
         
 <!-- Desenvolvimento -->
-	<category name="lsf">
+	<category name="br">
 		<priority value="debug" />
 	</category>
 

@@ -2,7 +2,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
 "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-  <bean id="beanRetriever" class="lsf.util.bd.BeanRetriever"/>
+<!--  <bean id="beanRetriever" class="lsf.util.bd.BeanRetriever"/>
   <bean id="propertyConfigurer"
         class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
     <property name="locations">
@@ -10,33 +10,33 @@
         <value>WEB-INF/jdbc.properties</value>
       </list>
     </property>
-  </bean>
+  </bean>-->
   <!-- Local DataSource that works in any environment -->
   <bean id="dataSourceLSF" class="org.apache.commons.dbcp.BasicDataSource"
         destroy-method="close">
     <property name="driverClassName">
-      <value>${jdbc.driverClassName}</value>
+      <value>com.mysql.jdbc.Driver</value>
     </property>
     <property name="url">
-      <value>${jdbc.url}</value>
+      <value>jdbc:mysql://localhost:3306/perfildwr</value>
     </property>
     <property name="username">
-      <value>${jdbc.username}</value>
+      <value>perfil</value>
     </property>
     <property name="password">
-      <value>${jdbc.password}</value>
+      <value>perfil</value>
     </property>
     <property name="initialSize">
-        <value>30</value>
+        <value>0</value>
     </property>
     <property name="maxActive">
-        <value>100</value>
+        <value>30</value>
     </property>
     <property name="maxIdle">
-        <value>60</value>
+        <value>23</value>
     </property>
     <property name="minIdle">
-        <value>30</value>
+        <value>10</value>
     </property>
     <property name="maxWait">
         <value>30000</value>
@@ -52,4 +52,3 @@
     </property>
   </bean>
 </beans>
-
