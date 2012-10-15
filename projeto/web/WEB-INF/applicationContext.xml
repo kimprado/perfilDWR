@@ -2,7 +2,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
 "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-<!--  <bean id="beanRetriever" class="lsf.util.bd.BeanRetriever"/>
+  <bean id="beanRetriever" class="br.perfil.dwr.infra.BeanRetriever"/>
   <bean id="propertyConfigurer"
         class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
     <property name="locations">
@@ -10,7 +10,7 @@
         <value>WEB-INF/jdbc.properties</value>
       </list>
     </property>
-  </bean>-->
+  </bean>
   <!-- Local DataSource that works in any environment -->
   <bean id="dataSourceLSF" class="org.apache.commons.dbcp.BasicDataSource"
         destroy-method="close">
