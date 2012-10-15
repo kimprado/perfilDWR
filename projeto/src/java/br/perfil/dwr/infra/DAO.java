@@ -115,7 +115,7 @@ public class DAO {
         try {
             if (null == this.con) {
                 this.con = dataSource.getConnection();
-                LOG.info("Conexão a obtida: " + con);
+                //LOG.info("Conexão a obtida: " + con);
                 contador++;
                 //LOG.debug("abrindo con ->>> " + this.getClass().getName() + " -> " + this.con.hashCode() + " abertas = " + contador);
             }
@@ -143,7 +143,7 @@ public class DAO {
             } else {
                 //LOG.debug("fechando con <<<- " + this.getClass().getName() + " -> " + this.con.hashCode() + " abertas = " + --contador);
                 if (!this.getCon().isClosed()) {
-                    LOG.info("Conexão a Liberar: " + con);
+                    //LOG.info("Conexão a Liberar: " + con);
                     this.getCon().close();
                 }
                 this.con = null;
