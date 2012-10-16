@@ -52,7 +52,7 @@
             }
             
             function chamada() {
-                alunoDAO.find('2', exibe);
+                alunoDAO.find(2, exibe);
             }
             
             function exibe(aluno) {
@@ -83,7 +83,7 @@
         //System.out.println("contador: " + (++contador));
         exibeResultado();
         AlunoDAO alunoDAO =new AlunoDAO();
-        alunoDAO.find("3");
+        alunoDAO.find(1L);
     %>
     
     

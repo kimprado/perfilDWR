@@ -13,10 +13,10 @@
       <value>jdbc:mysql://localhost:3306/perfildwr</value>
     </property>
     <property name="username">
-      <value>root</value>
+      <value>perfil</value>
     </property>
     <property name="password">
-      <value>root</value>
+      <value>perfil</value>
     </property>
     <property name="initialSize">
         <value>0</value>
